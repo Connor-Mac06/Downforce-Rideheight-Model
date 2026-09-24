@@ -67,3 +67,8 @@ v2: The initial velocity of the second mass in m/s
 For the Coupled Aerodynamic Suspension System, there are two input parameters:
 Height: The distance from the car to ground when it is static in m
 VerticalVelocity: The vertical velocity of car body when its forward motion is static in m/s
+
+1.2.4 Solver Output
+The results are outputted into a file output.txt in the form Where there is a new line for each
+timestep taken. These results can be plotted through MATLAB for a graph of how the initial conditions
+change with time
